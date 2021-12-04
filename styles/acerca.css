@@ -1,0 +1,147 @@
+/***************** Seccion Header ***************/
+
+.acerca__header {
+    position: relative;
+}
+
+.acerca__header--image {
+    width: 100%;
+}
+
+.acerca__header--text {
+    position: absolute;
+    color: var(--dark-blue);
+}
+
+.acerca__header--text h1 {
+    font-weight: bold;
+}
+
+.acerca__header--text span {
+    color: var(--light-blue);
+}
+
+/***************** Seccion presentacion ***************/
+.acerca__presentacion {
+    align-items: center;
+    justify-content: center;
+}
+
+.acerca__text {
+    padding: 32px;
+}
+
+.acerca__text h1 {
+    text-align: center;
+}
+
+.acerca__text > * {
+    margin-bottom: 16px;
+}
+
+.acerca__text span {
+    color: var(--light-blue);
+}
+
+.responsive-grid {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.responsive-grid img {
+    width: 100%;
+}
+
+/***************** Seccion presentacion ***************/
+.mision__icons--item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    padding: 0 32px;
+}
+
+.mision__icons--item h1 {
+    text-align: left;
+    font-size: 2rem;
+}
+
+.mision__icons--item p {
+    font-size: 1.2rem;
+}
+
+.mision__icons--item img {
+    width: 32px;
+    margin-right: 12px;
+}
+
+/***************** Seccion Razones ***************/
+.razon__header {
+    text-align: center;
+    margin: 32px 0;
+}
+
+.razon__content--col {
+    padding: 0 32px;
+    justify-content: right;
+    align-self: start;
+}
+
+.razon__content--col span {
+    color: var(--light-blue);
+}
+
+/***************** Seccion Testimonios ***************/
+.main__acerca .main__testimonios {
+    background-color: var(--light-gray);
+}
+
+/***************** Seccion Leyenda ***************/
+.acerca__leyenda {
+    background-color: var(--light-gray);
+}
+.leyenda__carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+    justify-content: center;
+    gap: 16px;
+}
+
+.leyenda__carousel img{
+    width: 100%;
+    height: 100%;
+}
+
+.leyenda__texto {
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+}
+
+@media (min-width: 320px) {
+    .acerca__header--text {
+        top: 0;
+        left: 0;
+        background-color: rgba(237, 244, 250,0.5);
+        width: 100%;
+        height: 100%;
+        padding: 8px;
+    }
+    .responsive-grid {
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .acerca__header--text {
+        top: 40%;
+        left: 10%;
+        background-color: rgba(237, 244, 250,0.0);
+        width: auto;
+        height: auto;
+    }
+    .responsive-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

@@ -117,7 +117,6 @@ body {
     color: var(--white);
 }
 
-
 .footer {
     align-items: center;
     background-image: url("../assets/bg.jpg");
@@ -149,6 +148,34 @@ body {
     font-size: 1.6rem;
     text-align: center;
     padding: 8px;
+}
+
+@media (min-width: 320px) {
+    .text__title {
+        font-size: 2rem;
+        color: var(--dark-blue);
+    }
+
+    .text__content {
+        font-size: 1.2rem;
+        color: var(--dark-gray);
+    }
+
+    .responsive-container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) {
+    .text__title {
+        font-size: 2.5rem;
+    }
+    .text__content {
+        font-size: 1.4rem;
+    }
+    .responsive-container { 
+        flex-direction: row;
+    }
 }
 
 /* Media query para controlar los elementos que deben aparecer cuando cambia la navbar */
