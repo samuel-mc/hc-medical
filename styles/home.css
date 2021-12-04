@@ -50,11 +50,6 @@
     color: var(--dark-gray);
 }
 
-.conditions__container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(120px,1fr));
-}
-
 .image__card {
     background-color: var(--white);
     border: 2px solid rgba(0, 0, 0, 0.2);
@@ -476,6 +471,10 @@
         text-align: center;
     }
 
+    .conditions__container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(120px,1fr));
+    }
     .conditions__header {
         width: 100%;
     }
@@ -516,7 +515,7 @@
     }
 
     .main__productos {
-        padding: 0;
+        padding: 32px 0;
     }
 
     .productos__item img {
@@ -579,6 +578,9 @@
         text-align: left;
     }
 
+    .conditions__container {
+        grid-template-columns: repeat(3, minmax(120px,1fr));
+    }
     .conditions__header {
         width: 60%;
         margin: auto;

@@ -50,7 +50,8 @@ body {
     display: flex;
 }
 
-/* Secciones en el body */
+
+/******************************* Secciones en el body */
 /********************** Header *********************/
 .header {
     font-size: var(--md);
@@ -173,7 +174,7 @@ body {
     .text__content {
         font-size: 1.4rem;
     }
-    .responsive-container { 
+    main .responsive-container { 
         flex-direction: row;
     }
 }

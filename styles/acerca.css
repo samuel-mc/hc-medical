@@ -116,7 +116,7 @@
 .leyenda__texto {
     justify-content: space-around;
     align-items: center;
-    padding: 32px;
+    padding: 32px ;
 }
 
 @media (min-width: 320px) {
