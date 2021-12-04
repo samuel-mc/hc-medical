@@ -1,0 +1,675 @@
+/********************** Hero *********************/
+
+.main .text__content {
+    font-size: 1.4rem;
+    color: var(--dark-gray);
+}
+
+.main__hero {
+    position: relative;
+}
+
+.main__hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero__content > * {
+    margin-bottom: 24px;
+}
+
+.hero__content h4 {
+    color: var(--light-blue);
+}
+
+.hero__title {
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
+/********************** telephone *********************/
+.main__telephone {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main__telephone h1 span {
+    color: var(--light-blue);
+}
+
+.main__telephone--content {
+    background-color: var(--dark-blue);
+    border-radius: 16px;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+/********************** Conditions *********************/
+.main__conditions {
+    background-color: var(--light-gray);
+    padding: 32px 10%;
+    text-align: center;
+}
+
+.conditions__header p {
+    color: var(--dark-gray);
+}
+
+.conditions__container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(120px,1fr));
+}
+
+.image__card {
+    background-color: var(--white);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.image__card--container {
+    background-color: var(--light-gray);
+    border-radius: 50%;
+    object-fit: scale-down;
+    padding: 16px;
+}
+
+.image__card--container img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.image__card p {
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.card--selected {
+    border: 2px dashed var(--light-blue);
+}
+
+.card--selected .image__card--container {
+    background-color: var(--light-blue);
+}
+
+.card--selected .image__card--container img {
+    color: var(--white);
+        filter: brightness(0) contrast(100%) invert(100%);
+}
+
+/********************** Instalaciones *********************/
+.main__instalaciones {
+    background-color: var(--white);
+    padding: 24px 10%;
+}
+
+.instalaciones__content {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 24px 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.instalaciones__content--video img:hover {
+    cursor: pointer;
+}
+
+/********************** Tratamientos *********************/
+
+.main__tratamientos {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+}
+
+.tratamientos__image {
+    width: 45%;
+    height: 100%;
+}
+
+.tratamientos__text {
+    text-align: center;
+    padding: 24px;
+}
+
+.tratamientos__text--item {
+    background-color: var(--white);
+    border: 1px solid var(--dark-blue);
+    border-radius: 4px;
+    margin: 5% 10%;
+    padding: 12px;
+    text-align: left;
+}
+
+/********************** Valoración *********************/
+.main__valoracion {
+    background-color: var(--light-blue);
+    justify-content: center;
+    align-items: center;
+}
+
+.valoracion__telephones {
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.valoracion__telephones h1 {
+    margin-bottom: 32px;
+}
+
+.valoracion__telephones--number {
+    display: flex;
+    align-items: center;
+}
+
+.valoracion__telephones--number span {
+    border-radius: 50%;
+    margin: 4px;
+    padding: 8px;
+}
+
+.valoracion__telephones--number.phone h3 {
+    color: var(--light-blue);
+}
+
+.valoracion__telephones--number.phone span {
+    background-color: var(--light-blue);
+}
+
+.valoracion__telephones--number.whatsapp h3 {
+    color: rgb(0, 214, 18);
+}
+
+.valoracion__telephones--number.whatsapp span {
+    background-color: rgb(0, 214, 18);
+}
+
+.valoracion__telephones--number svg {
+    color: var(--white);
+    height: 16px;
+}
+
+.valoracion__telephones--email {
+    color: var(--dark-blue);
+    font-size: 1.4rem;
+    margin-top: 32px;
+}
+
+.valoracion__text {
+    color: var(--white);
+    margin: 24px;
+}
+
+.valoracion__text--icons {
+    margin: 24px;
+}
+
+.valoracion__text--icons svg {
+    width: 80%;
+}
+
+/********************** Testimonios *********************/
+.main__testimonios {
+    padding: 32px 10%;
+}
+
+.testimonios__header {
+    text-align: center;
+}
+
+.testimonios__container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px,1fr));
+    margin-top: 60px;
+}
+
+.testimonios__item {
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 48px 32px 24px 32px;
+    position: relative;
+}
+
+.testimonios__item--img {
+    position: absolute;
+    top: -44px;
+    left: 24px;
+}
+
+.testimonios__item--button {
+    position: absolute;
+    top: -20px;
+    right: 24px;
+}
+
+.testimonios__item--button:hover{
+    cursor: pointer;
+}
+
+.testimonios__item--title {
+    color: var(--dark-blue);
+    font-weight: bold;
+}
+
+.testimonios__item--subtitle {
+    color: var(--light-blue);
+    margin-bottom: 24px;
+}
+
+/********************** Productos *********************/
+
+.main__productos {
+    background-color: var(--light-gray);
+    text-align: center;
+}
+
+.productos__container {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin: 40px 0;
+    grid-template-columns: repeat(auto-fill, minmax(120px,250px));
+}
+
+.productos__item {
+    padding: 12px;
+}
+
+/********************** Contacto *********************/
+.contacto__header {
+    margin: 24px 0;
+    text-align: center;
+}
+
+.contacto__data {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 32px;
+    text-align: center;
+    width: 50%;
+}
+
+.contacto__data > * {
+    margin: 28px 0;
+}
+
+.contacto__data {
+    width: 50%;
+}
+
+.contacto__form {
+    border: 1px solid var(--dark-blue);
+    text-align: right;
+}
+
+.contacto__form--input {
+    display: block;
+    background-color: var(--light-gray);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    width: calc(100% - 32px);
+    margin: 32px 16px;
+    padding: 8px 12px;
+    transition: all 0.8s ease-in-out;
+
+}
+
+.contacto__form--input:focus {
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.4s ease-in-out;
+}
+
+.contacto__form--submit {
+    margin: 24px;
+    width: 30%;
+}
+/********************** Sección Clínicas *********************/
+.clinicas__header {
+    text-align: center;
+    padding: 32px;
+}
+
+.clinicas__item--container {
+    justify-items: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.clinicas__item--direction {
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+}
+
+.clinicas__item--direction h1 {
+    font-weight: bold;
+}
+
+.clinicas__item--direction button {
+    margin: 24px auto;
+}
+
+.clinicas__item--map {
+    text-align: center;
+
+}
+
+.clinicas__item--map img{
+    width: 90%;
+}
+
+.clinicas__item--carousel img {
+    width: 100%;
+}
+
+.clinicas__footer {
+    background-image: url("../assets/bg.jpg");
+    background-position: right;
+    color: var(--white);
+    margin: 24px auto;
+    text-align: center;
+    padding: 32px;
+    width: 50%;
+}
+
+.clinicas__footer--title {
+    width: 100%;
+    font-weight: bold;
+}
+
+.clinicas__footer--title span {
+    color: var(--light-blue);
+}
+
+.clinicas__footer--description p {
+    margin-bottom: 24px;
+}
+
+.clinicas__footer--description span {
+    background-color: white;
+    border-radius: 50%;
+    color: var(--dark-blue);
+    margin: 16px;
+    padding: 12px;
+    width: 44px;
+}
+
+.clinicas__footer--description span:hover {
+    cursor: pointer;
+}
+
+.clinicas__footer--description span:nth-child(2) {
+    color: rgb(0, 214, 18);
+}
+
+.clinicas__footer--description span svg {
+    height: 20px;
+}
+
+/********************** Blog *********************/
+.main__blog {
+    text-align: center;
+    margin: 32px auto;
+}
+
+.blog__container {
+    padding: 32px 10%;
+    display: grid;
+    grid-gap: 24px;
+    justify-content: center;
+}
+
+.blog__item {
+    border: 2px solid var(--light-gray);
+    border-radius: 8px;
+    text-align: left;
+    margin: 16px;
+}
+
+.blog__item--content {
+    padding: 24px;
+}
+
+.blog__item--content h1 {
+    font-size: 2rem;
+    color: var(--dark-blue);
+    margin: 16px 0;
+}
+
+.blog__item--content h2 {
+    color: var(--light-blue);
+    margin: 16px 0;
+}
+
+/********************** Media Queries *********************/
+@media (min-width: 320px) {
+    .responsive-container {
+        flex-direction: column;
+    }
+
+    .main .text__title {
+        font-size: 3rem;
+        color: var(--dark-blue);
+    }
+
+    .hero__content {
+        background-color: rgba(237, 244, 250,0.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+    }
+    .hero__title {
+        font-size: 2.5rem;
+    }
+    .hero__content h4 {
+        display: none;
+    }
+    .hero__content button {
+        display: none;
+    }
+
+    .main__telephone--content .text__content{
+        color: var(--white);
+    }
+    .main__telephone--text {
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .conditions__header {
+        width: 100%;
+    }
+    .conditions__header h1 {
+        color: var(--dark-blue);
+    }
+
+
+    .instalaciones__content--text {
+        width: 100%;
+    }
+    .instalaciones__content--video img{
+        width: 100%;
+    }
+
+    .main__tratamientos {
+        flex-direction: column-reverse;
+    }
+
+    .main__valoracion {
+        padding: 20px;
+    }
+    .valoracion__telephones {
+        text-align: center;
+        background-color: var(--white);
+        border-radius: 12px;
+        padding: 10px;
+        margin: 0;
+    }
+    .valoracion__text {
+        text-align: center;
+    }
+
+    .testimonios__container {
+        gap: 64px;
+        grid-template-columns: minmax(200px,1fr);
+        margin-top: 60px;
+    }
+
+    .main__productos {
+        padding: 0;
+    }
+
+    .productos__item img {
+        width: 80%;
+    }
+
+    .contacto__data {
+        width: 100%;
+    }
+
+    .clinicas__item--direction {
+        width: 100%;
+    }
+    .clinicas__item--map {
+        width: 100%;
+    }
+    .clinicas__item--carousel {
+        display: none;
+    }
+    .sucursal-norte .clinicas__item--container {
+        background-color: var(--light-gray);
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .clinicas__footer {
+        width: 100%;
+    }
+
+    .blog__container {
+        grid-template-columns: repeat(auto-fill, minmax(200px,250px));
+    }
+}
+
+@media (min-width: 500px) {
+    .hero__content h4 {
+        display: block;
+    }
+    .hero__content button {
+        display: inline;
+    }
+}
+
+@media (min-width: 768px) {
+    .responsive-container { 
+        flex-direction: row;
+    }
+
+    .main .text__content {
+        font-size: 1.6rem;
+    }
+
+    .hero__title {
+        font-size: 5rem;
+    }
+    .hero__content {
+        background-color: rgba(237, 244, 250,0.0);
+        top: 10%;
+        left: 10%;
+        height: 80%;
+        width: 80%;
+        text-align: left;
+    }
+
+    .main__telephone--text {
+        width: 60%;
+        padding: 24px;
+        text-align: left;
+    }
+
+    .conditions__header {
+        width: 60%;
+        margin: auto;
+    }
+    .conditions__header h1 {
+        color: var(--dark-blue);
+    }
+
+    .instalaciones__content--text {
+        width: 30%;
+        margin-right: 32px;
+    }
+
+    .main__valoracion {
+        padding: 48px;
+    }
+    .valoracion__telephones {
+        text-align: left;
+        padding: 24px;
+        width: 45%;
+    }
+    .valoracion__text {
+        text-align: left;
+        padding: 24px;
+        width: 40%;
+    }
+
+    .testimonios__container {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(3, minmax(200px,1fr));
+        margin-top: 60px;
+    }
+
+    .main__productos {
+        padding: 32px 10%;
+    }
+
+    .contacto__data {
+        width: 50%;
+    }
+    .contacto__form {
+        width: 50%;
+    }
+    .sucursal-norte .clinicas__item--container {
+        text-align: right;
+        flex-direction: row;
+    }
+    .clinicas__item--direction {
+        width: 50%;
+    }
+    .clinicas__item--map {
+        width: 50%;
+    }
+    .clinicas__item--carousel {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(100px,1fr));
+        gap: 24px;
+        padding: 24px 64px;
+        justify-content: center;
+    }
+    .clinicas__footer {
+        width: 60%;
+    }
+
+    .blog__container {
+        grid-template-columns: repeat(auto-fill, minmax(300px,500px));
+    }
+    .blog__item {
+        height: 250px;
+        width: 500px;
+    }
+}
