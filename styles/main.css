@@ -205,6 +205,10 @@ body {
         margin-bottom: 0;
     }
 
+    .page__title--image {
+        height: 150px;
+    }
+
     .text__title {
         font-size: 2rem;
         color: var(--dark-blue);
@@ -235,6 +239,9 @@ body {
     }
     .page__title--text h1 {
         margin-bottom: 24px;
+    }
+    .page__title--image {
+        height: auto;
     }
 
     .text__title {
