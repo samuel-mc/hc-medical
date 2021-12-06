@@ -294,6 +294,18 @@
     width: 50%;
 }
 
+.contacto__data--social img {
+    height: 48px;
+    margin: 8px;
+    transition: transform 1s ease-in-out;
+}
+
+.contacto__data--social img:hover {
+    cursor: pointer;
+    transform: translateY(-8px);
+    transition: transform 0.4s ease-in-out;
+}
+
 .contacto__form {
     border: 1px solid var(--dark-blue);
     text-align: right;
@@ -384,25 +396,16 @@
     margin-bottom: 24px;
 }
 
-.clinicas__footer--description span {
-    background-color: white;
-    border-radius: 50%;
-    color: var(--dark-blue);
-    margin: 16px;
-    padding: 12px;
-    width: 44px;
+.clinicas__footer--icons img {
+    height: 48px;
+    margin: 8px;
+    transition: transform 0.5s ease-in-out;
 }
 
-.clinicas__footer--description span:hover {
+.clinicas__footer--icons img:hover {
     cursor: pointer;
-}
-
-.clinicas__footer--description span:nth-child(2) {
-    color: rgb(0, 214, 18);
-}
-
-.clinicas__footer--description span svg {
-    height: 20px;
+    transform: translateY(-8px);
+    transition: transform 0.2s ease-in-out;
 }
 
 /********************** Blog *********************/
