@@ -143,6 +143,10 @@
     align-items: center;
 }
 
+.main__valoracion p {
+    color: var(--white);
+}
+
 .valoracion__telephones {
     background-color: var(--white);
     border-radius: 12px;
@@ -203,6 +207,12 @@
 .valoracion__text--icons svg {
     width: 80%;
 }
+
+.valoracion__text .btn {
+    align-self: end;
+    margin: 16px 24px;
+}
+
 
 /********************** Testimonios *********************/
 .main__testimonios {

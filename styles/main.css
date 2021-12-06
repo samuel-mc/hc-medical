@@ -31,7 +31,7 @@ body {
 /********************** Button *********************/
 .btn {
     background-color: var(--dark-blue);
-    border: none;
+    border: 1px solid var(--dark-blue);
     border-radius: 24px;
     color: var(--white);
     padding: 8px 20px;
@@ -81,8 +81,6 @@ body {
     width: 100%;
 }
 
-
-
 /********************** Header *********************/
 .header {
     font-size: var(--md);
@@ -91,14 +89,21 @@ body {
 .header__contact {
     color: var(--dark-blue);
     font-family: var(--font-family);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+}
 
+.header__contact p {
+    margin: 0;
 }
 
 .header__contact--data {
     display: none;
 }
 
-.header__contact--data span:nth-child(2){
+.header__contact--data span {
     color: var(--light-blue);
 }
 
@@ -204,10 +209,13 @@ body {
         font-size: 2rem;
         color: var(--dark-blue);
     }
-
     .text__content {
         font-size: 1.2rem;
         color: var(--dark-gray);
+    }
+
+    .padding {
+        padding: 32px;
     }
 
     .responsive-container {
@@ -234,6 +242,10 @@ body {
     }
     .text__content {
         font-size: 1.4rem;
+    }
+
+    .padding {
+        padding: 48px 100px;
     }
 
     .responsive-container { 
