@@ -284,9 +284,6 @@ body {
     .header__navbar {
         flex-direction: row;
     }
-    .main__telephone {
-        margin: 0 10%;
-    }
 
     .conditions__container {
         grid-template-columns: repeat(3, minmax(50px,1fr));
