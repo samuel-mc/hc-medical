@@ -16,12 +16,12 @@
     color: var(--light-blue);
 }
 
-.padecimiento__aside--list {
+.aside--list {
     display: flex;
     flex-direction: column;
 }
 
-.padecimiento__aside--item {
+.aside--item {
     background-color: var(--light-gray);
     color: var(--dark-blue);
     margin-top: 12px;
@@ -29,14 +29,14 @@
     transition: all 0.6s ease-in-out;
 }
 
-.padecimiento__aside--item:hover {
+.aside--item:hover {
     text-decoration: none;
     background-color: var(--light-blue);
     color: var(--white);
     transition: all 0.3s ease-in-out;
 }
 
-.padecimiento__aside--item.selected {
+.aside--item.selected {
     background-color: var(--light-blue);
     color: var(--white);
 }
