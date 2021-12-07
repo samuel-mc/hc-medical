@@ -42,12 +42,12 @@
 /********************** Conditions *********************/
 .main__conditions {
     background-color: var(--light-gray);
-    padding: 32px 10%;
     text-align: center;
 }
 
 .conditions__header p {
     color: var(--dark-gray);
+    margin: 24px 0;
 }
 
 .image__card {
@@ -94,7 +94,6 @@
 /********************** Instalaciones *********************/
 .main__instalaciones {
     background-color: var(--white);
-    padding: 24px 10%;
 }
 
 .instalaciones__content {
@@ -215,10 +214,6 @@
 
 
 /********************** Testimonios *********************/
-.main__testimonios {
-    padding: 32px 10%;
-}
-
 .testimonios__header {
     text-align: center;
 }
@@ -284,7 +279,7 @@
 
 /********************** Contacto *********************/
 .contacto__header {
-    margin: 24px 0;
+    margin: 32px 0;
     text-align: center;
 }
 
@@ -347,7 +342,6 @@
 /********************** Sección Clínicas *********************/
 .clinicas__header {
     text-align: center;
-    padding: 32px;
 }
 
 .clinicas__item--container {
@@ -506,9 +500,6 @@
         flex-direction: column-reverse;
     }
 
-    .main__valoracion {
-        padding: 20px;
-    }
     .valoracion__telephones {
         text-align: center;
         background-color: var(--white);
@@ -524,10 +515,6 @@
         gap: 64px;
         grid-template-columns: minmax(200px,1fr);
         margin-top: 60px;
-    }
-
-    .main__productos {
-        padding: 32px 0;
     }
 
     .productos__item img {
@@ -605,9 +592,6 @@
         margin-right: 32px;
     }
 
-    .main__valoracion {
-        padding: 48px;
-    }
     .valoracion__telephones {
         text-align: left;
         padding: 24px;
@@ -624,10 +608,6 @@
         gap: 24px;
         grid-template-columns: repeat(3, minmax(200px,1fr));
         margin-top: 60px;
-    }
-
-    .main__productos {
-        padding: 32px 10%;
     }
 
     .contacto__data {
