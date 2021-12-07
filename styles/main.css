@@ -134,7 +134,7 @@ body {
     color: var(--white);
 }
 
-.navbar__logo svg {
+.navbar__logo img {
     height: 40px;
 }
 
@@ -165,6 +165,7 @@ body {
 /* Sobreescribimos el diseños de los elementos de la navbar que da bootstrap */
 .nav-item.active {
     border-bottom: 2px solid var(--dark-blue);
+    border-radius: 6px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
