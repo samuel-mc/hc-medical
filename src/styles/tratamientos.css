@@ -1,0 +1,38 @@
+.tratamientos {
+    display: grid;
+    gap: 32px;
+}
+
+.tratamientos__content > * {
+    margin-bottom: 24px;
+}
+
+.tratamientos__image {
+    height: 200px;
+    background-color: var(--light-gray);
+    width: 100%;
+    margin: 12px;
+}
+
+.tratamientos__carousel {
+    display: grid;
+    gap: 24px;
+}
+
+@media (min-width: 320px) {
+    .tratamientos {
+        grid-template-columns: 1fr;
+    }
+    .tratamientos__carousel {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .tratamientos {
+        grid-template-columns: 2fr 1fr;
+    }
+    .tratamientos__carousel {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

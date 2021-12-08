@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/blog.css">
+    <title>HC Medica México</title>
+</head>
+<body>
+    <header class="header">
+        <!-- Seccion superior con: permiso cofepris, email y telefono -->
+        <div class="header__contact">
+            <div class="header__contact--cofepris">
+                <p>Permiso Cofepris 173300201A2493</p>
+            </div>
+            <div class="header__contact--data">
+                <p> contacto@hcmedicalmexico.com.mx <span> | </span> Tel. 55 12 04 86</p>
+            </div>
+        </div>
+
+        <!-- Seccion donde esta la barra de navegacion -->
+        <div class="header__navbar d-flex justify-content-between">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar__logo navbar-brand" href="#">
+                    <img src="./assets/logoHeader.png" alt="Logo de la empresa">
+                </a>
+
+                <div class="navbar__links collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/acerca.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Padecimientos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="./padecimiento1.html">Pie Diabético</a>
+                          <a class="dropdown-item" href="./padecimiento2.html">Heridas Quirúrgicas y traumáticas</a>
+                          <a class="dropdown-item" href="./padecimiento3.html">Úlceras por presión</a>
+                          <a class="dropdown-item" href="./padecimiento4.html">Úlcera de pierna venosa</a>
+                          <a class="dropdown-item" href="./padecimiento5.html">Quemaduras</a>
+                          <a class="dropdown-item" href="./padecimiento6.html">Estomas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./tratamientos.html">Tratamientos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Clínicas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+
+            </nav>
+
+            <div class="navbar__button">
+                <div class="triangle"></div>
+                <button class="btn btn-secondary" type="button">
+                    <a href="#">Haz una cita</a>
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main__blog">
+        <section class="page__title">
+            <img class="page__title--image" src="./assets/productos/bg.jpg" alt="">
+            <div class="page__title--text">
+                <h1>Blog</h1>
+                <h3>Home - <span>Blog</span> </h3>
+            </div>
+        </section>
+
+        <section class="blog__posts padding responsive-grid">
+            <div class="blog__post responsive-grid">
+                <img class="blog__post--image"src="./assets/home/blogImage.png" alt="Imagen de la publicación">
+                <div class="blog__post--text">
+                    <h3 class="text__content">25, February, 2021</h3>
+                    <h1>
+                        Lorem ipsum dolor
+                        sit amet,
+                        consectetuer
+                        adipiscing elit.
+                    </h1>
+                    <a href="#"> Leer más</a>
+                </div>
+            </div>
+            <div class="blog__post responsive-grid">
+                <img class="blog__post--image"src="./assets/home/blogImage.png" alt="Imagen de la publicación">
+                <div class="blog__post--text">
+                    <h3 class="text__content">25, February, 2021</h3>
+                    <h1>
+                        Lorem ipsum dolor
+                        sit amet,
+                        consectetuer
+                        adipiscing elit.
+                    </h1>
+                    <a href="#"> Leer más</a>
+                </div>
+            </div>
+            <div class="blog__post responsive-grid">
+                <img class="blog__post--image"src="./assets/home/blogImage.png" alt="Imagen de la publicación">
+                <div class="blog__post--text">
+                    <h3 class="text__content">25, February, 2021</h3>
+                    <h1>
+                        Lorem ipsum dolor
+                        sit amet,
+                        consectetuer
+                        adipiscing elit.
+                    </h1>
+                    <a href="#"> Leer más</a>
+                </div>
+            </div>
+            <div class="blog__post responsive-grid">
+                <img class="blog__post--image"src="./assets/home/blogImage.png" alt="Imagen de la publicación">
+                <div class="blog__post--text">
+                    <h3 class="text__content">25, February, 2021</h3>
+                    <h1>
+                        Lorem ipsum dolor
+                        sit amet,
+                        consectetuer
+                        adipiscing elit.
+                    </h1>
+                    <a href="#"> Leer más</a>
+                </div>
+            </div>
+            <div class="blog__post responsive-grid">
+                <img class="blog__post--image"src="./assets/home/blogImage.png" alt="Imagen de la publicación">
+                <div class="blog__post--text">
+                    <h3 class="text__content">25, February, 2021</h3>
+                    <h1>
+                        Lorem ipsum dolor
+                        sit amet,
+                        consectetuer
+                        adipiscing elit.
+                    </h1>
+                    <a href="#"> Leer más</a>
+                </div>
+            </div>
+            <div class="blog__post responsive-grid">
+                <img class="blog__post--image"src="./assets/home/blogImage.png" alt="Imagen de la publicación">
+                <div class="blog__post--text">
+                    <h3 class="text__content">25, February, 2021</h3>
+                    <h1>
+                        Lorem ipsum dolor
+                        sit amet,
+                        consectetuer
+                        adipiscing elit.
+                    </h1>
+                    <a href="#"> Leer más</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog__pagination">
+            <ul class="pagination__list">
+                <li class="pagination__item selected"><a href="#">1</a></li>
+                <li class="pagination__item"><a href="#">2</a></li>
+                <li class="pagination__item"><a href="#">3</a></li>
+                <li class="pagination__item"><a href="#">4</a></li>
+            </ul>
+        </section>
+
+        <section class="main__telephone responsive-container">
+            <div class="main__telephone--text">
+                <h1 class="text__title">La mejor atención <span>para ti y tu familia</span></h1>
+                <p class="text__content">Hemos ayudado a cientos de pacientes diabéticos a sanar sus heridas, pacientes que la única opcion era la amputación, hoy gracias a nuestros tratamientos y su confianza en nosotros, salvaron su extremidad</p>
+            </div>
+
+            <div class="main__telephone--number">
+                <div class="main__telephone--content">
+                    <p class="text__content"> Llámanos: 55 12 04 08 86</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer responsive-container">
+        <div class="footer__col1">
+            <img src="./assets/logo.png" alt="">
+            <h1>Horario de atención</h1>
+            <p>Lunes a Viernes - 9 am a 5 pm</p>
+            <p>Sábados - 9 am a 1 pm</p>
+        </div>
+        <div class="footer__col2">
+            <h1>Zona Sur</h1>
+            <p>
+                Calzada de Tlalpan 5037, <br />
+                Col. La Joya, Ciudad de México <br />
+                (Zona de hospitales)
+            </p>
+            <h1>Zona Norte</h1>
+            <p>
+                Habana No. 184 Local A. Col: Tepeyac <br />
+                Insurgentes. CP:07020. Gustavo A. <br />
+                Madero. Entre Insurgentes Norte y <br />
+                Montevideo.
+            </p>
+        </div>
+        <div class="footer__col3">
+            <p>Tel. 55 12 04 08 86</h3>
+            <p>contacto@hcmedicalmexico.com.mx</p>
+            <button class="btn">Haz una cita</button>
+        </div>
+    </footer>
+    <div class="brand__laber">Desarrollado por <a href="http://samuelmedina.xyz">@samuel-mc</a></div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

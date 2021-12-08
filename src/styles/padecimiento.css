@@ -1,0 +1,118 @@
+.tratamiento {
+    display: grid;
+    gap: 32px;
+}
+
+.tratamiento__content > * {
+    margin-bottom: 24px;
+}
+
+.tratamiento__content h2 {
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+.tratamiento__content span {
+    color: var(--light-blue);
+}
+
+.aside--list {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside--item {
+    background-color: var(--light-gray);
+    color: var(--dark-blue);
+    margin-top: 12px;
+    padding: 16px;
+    transition: all 0.6s ease-in-out;
+}
+
+.aside--item:hover {
+    text-decoration: none;
+    background-color: var(--light-blue);
+    color: var(--white);
+    transition: all 0.3s ease-in-out;
+}
+
+.aside--item.selected {
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
+.proceso__content--item {
+    position: relative;
+}
+
+.proceso__content--item img {
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+    padding: 8px;
+    height: 64px;
+    margin-bottom: 12px;
+}
+
+.proceso__content--line {
+    height: 12px;
+    background-color: var(--dark-blue);
+    position: absolute;
+    top: 28px;
+    left: 48px;
+    z-index: -1;
+    width: 100%;
+}
+
+.padecimiento__exitos {
+    background-color: var(--light-gray);
+}
+
+.exitos__carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+    text-align: center;
+    margin: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.exitos__carousel img {
+    border-radius: 24px;
+    height: 250px;
+}
+
+.exitos__carousel h3 {
+    color: var(--dark-blue);
+    padding: 12px;
+}
+
+
+@media (min-width: 320px) {
+    .tratamiento {
+        grid-template-columns: 1fr;
+    }
+    .proceso__content {
+        display: grid;
+        gap: 32px;
+        grid-template-columns: 1fr;
+        padding: 24px;
+    }
+    .proceso__content--line {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .tratamiento {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .proceso__content {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 32px;
+    }
+    .proceso__content--line {
+        display: block;
+    }
+}

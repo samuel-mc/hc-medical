@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/contacto.css">
+    <title>HC Medica México</title>
+</head>
+<body>
+    <header class="header">
+        <!-- Seccion superior con: permiso cofepris, email y telefono -->
+        <div class="header__contact">
+            <div class="header__contact--cofepris">
+                <p>Permiso Cofepris 173300201A2493</p>
+            </div>
+            <div class="header__contact--data">
+                <p> contacto@hcmedicalmexico.com.mx <span> | </span> Tel. 55 12 04 86</p>
+            </div>
+        </div>
+
+        <!-- Seccion donde esta la barra de navegacion -->
+        <div class="header__navbar d-flex justify-content-between">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar__logo navbar-brand" href="#">
+                    <img src="./assets/logoHeader.png" alt="Logo de la empresa">
+                </a>
+
+                <div class="navbar__links collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/acerca.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Padecimientos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="./padecimiento1.html">Pie Diabético</a>
+                          <a class="dropdown-item" href="./padecimiento2.html">Heridas Quirúrgicas y traumáticas</a>
+                          <a class="dropdown-item" href="./padecimiento3.html">Úlceras por presión</a>
+                          <a class="dropdown-item" href="./padecimiento4.html">Úlcera de pierna venosa</a>
+                          <a class="dropdown-item" href="./padecimiento5.html">Quemaduras</a>
+                          <a class="dropdown-item" href="./padecimiento6.html">Estomas</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./tratamientos.html">Tratamientos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Clínicas</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+
+            </nav>
+
+            <div class="navbar__button">
+                <div class="triangle"></div>
+                <button class="btn btn-secondary" type="button">
+                    <a href="#">Haz una cita</a>
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main__contacto">
+        <section class="page__title">
+            <img class="page__title--image" src="./assets/contacto/bg.jpg" alt="">
+            <div class="page__title--text">
+                <h1>Contacto</h1>
+                <h3>Home - <span>Contacto</span> </h3>
+            </div>
+        </section>
+
+        <section class="main__contacto">
+            <div class="contacto__header">
+                <h1 class="text__title">Estamos para ayudarte</h1>
+                <p class="text__content">No esperes a que una herida mal atendida termine en un problema mayor como una amputación. <br />
+                    Déjanos tus datos en el siguiente formulario o contáctanos a los siguientes números para brindarte <br />
+                    asesoría y agendar una valoración.</p>
+            </div>
+            <div class="contacto__container responsive-container">
+                <div class="contacto__data">
+                    <h1>¡Llámanos!</h1>
+                    <h2>Telefono: 5512 0409 86</h2>
+                    <div class="contacto__data--sucursal">
+                        <h3>Sucursal Zona Sur</h3>
+                        <h4>Calzada de Tlalpan 5037, Col. La Joya, Ciudad de <br />
+                            México (Zona de hospitales)</h4>
+                    </div>
+                    <div class="contacto__data--sucursal">
+                        <h3>Sucursal Zona Sur</h3>
+                        <h4>Habana No. 184 Local A. Col: Tepeyac <br />
+                            Insurgentes. CP:07020. Gustavo A. Madero. <br />
+                            Entre Insurgentes Norte y Montevideo.</h4>
+                    </div>
+                    <h2>PRECIOS ACCESIBLES</h2>
+                    <div class="contacto__data--social">
+                        <img src="./assets/home/phoneIcon.png" alt="Phone Icon">
+                        <img src="./assets/home/whatsappIcon.png" alt="Whatsapp Logo">
+                        <img src="./assets/home/facebookIcon.png" alt="Facebook Logo">
+                    </div>
+                </div>
+                <div class="contacto__form">
+                    <form action="">
+                        <input class="contacto__form--input" type="text" placeholder="Nombre:">
+                        <input class="contacto__form--input" type="email" placeholder="Email:">
+                        <input class="contacto__form--input" type="tel" placeholder="Teléfono:">
+                        <textarea class="contacto__form--input" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje:"></textarea>
+                        <input class="contacto__form--submit btn" type="submit" value="Enviar">
+                    </form>
+                </div>
+        </section>
+        <section class="contacto__info responsive-container">
+            <div class="contacto__info--item">
+                <img src="./assets/contacto/telefono.png" alt="Imagen de un telefono">
+                <div class="contacto__info--text">
+                    <h1 class="text__title">Teléfono:</h1>
+                    <p class="text__contact">55 12 04 08 86</p>
+                    <p class="text__contact">55 12 04 08 86</p>
+                </div>
+            </div>
+
+            <div class="contacto__info--item">
+                <img src="./assets/contacto/letra.png" alt="Imagen de un sobre">
+                <div class="contacto__info--text">
+                    <h1 class="text__title">Email:</h1>
+                    <p class="text__content">contacto@hcmedicalmexico.com.mx</p>
+                    <p class="text__content">citas@hcmedicalmexico.com.mx</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="main__clinicas">
+            <div class="clinicas__header">
+                <h1 class="text__title">Nuestras Clínicas</h1>
+                <p class="text__content">Abarcamos toda la Ciudad de México</p>
+            </div>
+            <div class="clinicas__item">
+                <div class="clinicas__item--container responsive-container">
+                    <div class="clinicas__item--direction">
+                        <h1>Clínica en zona sur</h1>
+                        <h2> (Zona hospitales)</h2>
+                        <h5>Calzada de Tlalpan 5037, Col. La Joya, Alcaldia Tlalpan. Ciudad de México</h5>
+                        <button class="btn">Agendar cita</button>
+                    </div>
+                    <div class="clinicas__item--map">
+                        <img src="./assets/home/map.jpg" alt="Mapa con la direccion">
+                    </div>
+                </div>
+                <div class="clinicas__item--carousel">
+                    <img src="./assets/home/sur1.jpg" alt="Foto de un consultorio">
+                    <img src="./assets/home/sur2.jpg" alt="Foto de un consultorio">
+                    <img src="./assets/home/sur3.jpg" alt="Foto de una recepcionista">
+                </div>
+            </div>
+            <div class="clinicas__item sucursal-norte">
+                <div class="clinicas__item--container responsive-container">
+                    <div class="clinicas__item--map">
+                        <img src="./assets/home/map.jpg" alt="Mapa con la direccion">
+                    </div>
+                    <div class="clinicas__item--direction">
+                        <h1>Sucursal Norte</h1>
+                        <h2> (Montevideo)</h2>
+                        <h5>Habana #184 Local A, Col. Tepeyac Insurgentes,
+                        CP. 07020. Alcaldía Gustavo A. Madero. Ciudad de México.
+                        Entre Insurgentes Norte y Montevideo.</h5>
+                        <button class="btn">Agendar cita</button>
+                    </div>
+                </div>
+                <div class="clinicas__item--carousel">
+                    <img src="./assets/home/norte1.jpg" alt="Foto de un consultorio">
+                    <img src="./assets/home/norte2.jpg" alt="Foto de un consultorio">
+                    <img src="./assets/home/norte3.jpg" alt="Foto de una recepcionista">
+                </div>
+            </div>
+            <div class="clinicas__item">
+                <div class="clinicas__item--container responsive-container">
+                    <div class="clinicas__item--direction">
+                        <h1>Sucursal Alpha</h1>
+                        <h2> (Montevideo)</h2>
+                        <h5>Habana #184 Local A, Col. Tepeyac Insurgentes,
+                        CP. 07020. Alcaldía Gustavo A. Madero. Ciudad de México.
+                        Entre Insurgentes Norte y Montevideo.</h5>
+                        <button class="btn">Agendar cita</button>
+                    </div>
+                    <div class="clinicas__item--map">
+                        <img src="./assets/home/map.jpg" alt="Mapa con la direccion">
+                    </div>
+                </div>
+                <div class="clinicas__item--carousel">
+                    <img src="./assets/home/norte1.jpg" alt="Foto de un consultorio">
+                    <img src="./assets/home/norte2.jpg" alt="Foto de un consultorio">
+                    <img src="./assets/home/norte3.jpg" alt="Foto de una recepcionista">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer responsive-container">
+        <div class="footer__col1">
+            <img src="./assets/logo.png" alt="">
+            <h1>Horario de atención</h1>
+            <p>Lunes a Viernes - 9 am a 5 pm</p>
+            <p>Sábados - 9 am a 1 pm</p>
+        </div>
+        <div class="footer__col2">
+            <h1>Zona Sur</h1>
+            <p>
+                Calzada de Tlalpan 5037, <br />
+                Col. La Joya, Ciudad de México <br />
+                (Zona de hospitales)
+            </p>
+            <h1>Zona Norte</h1>
+            <p>
+                Habana No. 184 Local A. Col: Tepeyac <br />
+                Insurgentes. CP:07020. Gustavo A. <br />
+                Madero. Entre Insurgentes Norte y <br />
+                Montevideo.
+            </p>
+        </div>
+        <div class="footer__col3">
+            <p>Tel. 55 12 04 08 86</h3>
+            <p>contacto@hcmedicalmexico.com.mx</p>
+            <button class="btn">Haz una cita</button>
+        </div>
+    </footer>
+    <div class="brand__laber">Desarrollado por <a href="samuelmedina.xyz">@samuel-mc</a></div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

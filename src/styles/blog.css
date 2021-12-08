@@ -1,0 +1,61 @@
+.main__blog {
+    text-align: left;
+}
+
+.blog__posts {
+    gap: 32px;
+}
+
+.blog__post {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+.blog__post--text {
+    padding: 24px;
+}
+
+.blog__post--text h1{
+    color: var(--dark-blue);
+    font-size: 2rem;
+    margin: 24px 0;
+}
+
+.blog__post--text a {
+    font-size: 1.4rem;
+}
+
+.pagination__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+    list-style: none;
+}
+
+.pagination__item a {
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    color: var(--dark-blue);
+    font-size: 1.6rem;
+    margin: 0 8px;
+    padding: 12px;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.pagination__item a:hover {
+    background-color: var(--light-blue);
+    color: var(--white);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.pagination__item.selected a {
+    background-color: var(--light-blue);
+    color: var(--white);
+}
+
+.main__blog .main__telephone {
+    margin-top: 80px;
+}

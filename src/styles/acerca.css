@@ -1,0 +1,88 @@
+/***************** Seccion presentacion ***************/
+.acerca__presentacion {
+    align-items: center;
+    justify-content: center;
+}
+
+.acerca__text {
+    padding: 32px;
+}
+
+.acerca__text h1 {
+    text-align: center;
+}
+
+.acerca__text > * {
+    margin-bottom: 16px;
+}
+
+.acerca__text span {
+    color: var(--light-blue);
+}
+
+
+/***************** Seccion presentacion ***************/
+.mision__icons--item {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    padding: 0 32px;
+}
+
+.mision__icons--item h1 {
+    text-align: left;
+    font-size: 2rem;
+}
+
+.mision__icons--item p {
+    font-size: 1.2rem;
+}
+
+.mision__icons--item img {
+    width: 32px;
+    margin-right: 12px;
+}
+
+/***************** Seccion Razones ***************/
+.razon__header {
+    text-align: center;
+    margin: 32px 0;
+}
+
+.razon__content--col {
+    padding: 0 32px;
+    justify-content: right;
+    align-self: start;
+}
+
+.razon__content--col span {
+    color: var(--light-blue);
+}
+
+/***************** Seccion Testimonios ***************/
+.main__acerca .main__testimonios {
+    background-color: var(--light-gray);
+}
+
+/***************** Seccion Leyenda ***************/
+.acerca__leyenda {
+    background-color: var(--light-gray);
+}
+.leyenda__carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+    justify-content: center;
+    gap: 16px;
+}
+
+.leyenda__carousel img{
+    width: 100%;
+    height: 100%;
+}
+
+.leyenda__texto {
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px ;
+}
