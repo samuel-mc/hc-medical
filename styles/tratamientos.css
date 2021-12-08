@@ -3,6 +3,10 @@
     gap: 32px;
 }
 
+.tratamientos__content > * {
+    margin-bottom: 24px;
+}
+
 .tratamientos__image {
     height: 200px;
     background-color: var(--light-gray);
